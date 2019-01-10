@@ -1,0 +1,341 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>:::  VR概念网站  :::</title>
+
+		<style type="text/css">
+			body{
+			margin: 0px;
+			background:url(images/index/BACKGROUND.jpg);	
+			background-repeat: no-repeat;
+			}
+			#div1
+			{
+				width:auto;
+				height:800px;
+				background:url(images/index/BACKGROUND.jpg);					
+				transition:background 0.5s;
+				-moz-transition:background 0.5s; 
+				-webkit-transition:background 0.5s; 
+				-o-transition:background 0.5s;
+				
+			}
+			#div1:hover
+			{
+				
+				background:url(images/index/BACKGROUND-!.jpg);
+				
+			}
+			#div-img
+			{
+				position:absolute;
+				left:60px;
+				font-family:方正兰亭超细黑简体;
+				font-size:19px;
+				color:#fff;
+				letter-spacing:2px;
+				font-weight:bold;
+	
+			}
+			#div2
+			{
+				width:100%;
+				height:115px;
+				background-color:#000;
+				background:rgba(0,0,0,0.9);		
+				}
+			#div3
+			{
+				width:100%;
+				height:700px;
+				opacity:0;
+				transition:opacity 2s;
+				-moz-transition:opacity 2s; 
+				-webkit-transition:opacity 2s; 
+				-o-transition:opacity 2s;
+				}
+			 #d3span1
+			 {
+				 width:300px;
+				 height:200px;
+				 position:absolute;
+				right:130px;
+				top:250px;
+				 font-family:方正兰亭超细黑简体;
+				 font-size:18px;
+				 color:#fff;}
+			#d3span2
+			 {
+				width:300px;
+				 height:400px;
+				 position:absolute;
+				left:100px;
+				top:430px;
+				 font-family:方正兰亭超细黑简体;
+				 font-size:18px;
+				 color:#fff;}
+
+			#div3:hover
+			{
+				opacity:1;
+				}
+			#div2-1
+			{
+				position:absolute;
+				right:40px;
+				top:40px;
+				width:700px;
+				height:80px;
+				}
+			#li1
+			{
+				font-size:18px;
+				float:left;
+				list-style:none;
+				width:130px;
+				height:40px;
+				
+				}
+			#lispan
+			{
+				font-size:22px;
+				color:#fff;
+				text-decoration:underline;
+				}
+			 a {
+				font-family: 方正兰亭超细黑简体;
+				color: #fff;
+				font-size:18px;
+				transition:font-size 0.1s;
+				-moz-transition:font-size 0.1s; 
+				-webkit-transition:font-size 0.1s; 
+				-o-transition:font-size 0.1s;}
+			 a:link {
+				text-decoration: none;}
+			 a:visited {
+				text-decoration: none;}
+			 a:hover {
+				
+				font-size:22px;
+				color:#00c17a;
+				}
+			#div2-1 a:active {
+				text-decoration: none;
+				color:#00c17a;}
+			#div4
+			{
+				width:100%;
+				margin:0 auto;
+				height:900px;
+				background:url(images/index/product1.jpg);
+				background-repeat: no-repeat;
+				color:#000;
+				}
+			#div4 a
+			{
+				color:#00c11a;
+				line-height:30px;
+			}
+			#div4 h1
+			{
+				color:#00c12a;
+			}
+			#d4div1{
+				
+				 font-size:18px;
+				 float:left;
+				margin-left:80px;
+				margin-top:60px;
+				 width:550px;
+				 height:400px;
+				 
+				 }
+			#d4div1 h2
+			{
+				font-family: 方正兰亭超细黑简体;
+				margin-bottom:30px;
+				
+				border-bottom:solid 2px #00c17a;
+				}
+			#d4div2{
+				
+				 font-size:12px;
+				 float:right;
+				margin-right:50px;
+				margin-top:60px;
+				 width:550px;;
+				 height:170px;
+				 letter-spacing:1px;
+				 line-height:18px;
+				 }
+			#div4-5
+			{
+				
+				width:50%;
+				height:100px;
+				margin:60px auto;
+				font-size:12px;
+				text-align:center;
+				line-height:20px;
+
+			}
+				
+			#div5
+			{
+				width:100%;
+				height:100px;
+				background-color:#000;
+				border-top:solid 1px #000;
+				
+			}
+			#d5div1
+			{
+				font-family:方正兰亭超细黑简体;
+				margin:auto;
+				width:320px;
+				height:100px;
+				font-size:13px;
+				float:right;
+				color:#fff;
+				letter-spacing:3px;
+				line-height:18px;
+				margin-right:110px;
+			}
+			#d5div2
+			{
+				font-family:方正兰亭超细黑简体;
+				margin:0px auto;
+				width:835px;
+				height:100px;
+				margin-left:20px;
+				font-size:13px;
+				float:left;
+				color:#fff;
+				letter-spacing:1px;
+			}
+			#div5 a
+			{
+				color:#fff;
+				font-size:12px;
+				text-decoration:none;
+			}
+			#div5 a:link {
+				text-decoration: none;}
+			#div5 a:visited {
+				text-decoration: none;}
+			#div5 a:hover {
+				
+				font-size:12px;
+				color:#00c17a;
+				}
+			#div5 a:active {
+				text-decoration: none;
+				color:#00c17a;}
+			#div-bottom
+			{
+				width:100%;
+				height:340px;
+				background:url(images/BACKGROUNDBOTTOM.png);
+			}
+			#div-bottom div
+			{
+				width:800px;
+				height:100px;
+				padding-left:200px;
+				padding-top:100px;
+				font-family:方正兰亭超细黑简体;
+			}
+			#div-bottom a
+			{
+				color:#00c17a;
+			}
+        </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+		<div id="div-img"><img src="images/logo1.png" width="150" height="100" />COPI VR科技</div>
+    <div id="div2">
+
+</div>
+    	<div id="div2-1">
+    	  <ul>
+        <li id="li1"><span id="lispan"> 网站首页 </span></li>
+                <li id="li1"><a href="in1.html"> 新闻快讯 </a></li>
+                <li id="li1"><a href="in2.html"> 产品展示 </a></li>
+                <li id="li1"><a href="#"> 售后服务 </a></li>
+                <li id="li1"><a href="#"> 联系我们</a></li>
+		  </ul>
+
+  </div>   
+
+
+<div id="div1">
+  	<div id='div3'>
+   	 <span id="d3span1"><h1>手机VR眼镜</h1><br/>
+我们眼中的VR，应该足够简单，足够自由，也足够全面震撼。搭配3DOF体感手柄的COPI U VR眼镜希望用一种简洁，易用，亲切和优雅的方式，让任何人都能随时随地在巨幕影片，全景资源和VR游戏中，获得虚拟现实的乐趣。</span>
+	<span id="d3span2"><h1>可配戴眼镜使用</h1><br />
+	<h2>不用调节，也看得清楚</h2>
+
+	COPI U在小巧的机身内藏下宽大的罩面，即使你近视度数极高，或双视力不一致，依然可以直接佩戴眼镜使用，不用纠结高度近视看不清VR画面，也不需要在使用前反复调节清晰度。</span>
+    	</div>	         
+</div>
+
+<div style="width:100%;height:120px;">
+<div id="div4-5">
+无线一体化仅仅是虚拟现实的第一步，想要在VR世界中实现真正的自由，VR头显不但需要摆脱线缆，还需要内置的6DoF空间定位，和双手位置追踪，让你能够在游戏里随意移动，使用双手进行交互，让你可以在<br/>任意时间，任何地点，造访虚拟世界。所有这些，你都可以在新一代Pico Neo中<br/>找到——来自Pico的顶级VR一体机，现已进化至无所不能。
+</div>
+</div>
+
+<div id="div4">
+<div id="d4div1">
+   	 <h2>什么是VR技术（虚拟现实技术）</h2>
+   	 虚拟现实技术是一种可以创建和体验虚拟世界的计算机仿真系统，它利用计算机生成一种模拟环境，是一种多源信息融合的、交互式的三维动态视景和实体行为的系统仿真使用户沉浸到该环境中。  <h1><a href="#">了解更多.....</a></h1><br/>VR是Virtual Reality的缩写
+   	 </div>
+
+   	 <div id="d4div2">
+   	 <h1>简介</h1>
+   	 虚拟现实技术是仿真技术的一个重要方向，是仿真技术与计算机图形学人机接口技术多媒体技术传感技术网络技术等多种技术的集合，是一门富有挑战性的交叉技术前沿学科和研究领域。虚拟现实技术(VR)主要包括模拟环境、感知、自然技能和传感设备等方面。模拟环境是由计算机生成的、实时动态的三维立体逼真图像。感知是指理想的VR应该具有一切人所具有的感知。除计算机图形技术所生成的视觉感知外，还有听觉、触觉、力觉、运动等感知，甚至还包括嗅觉和味觉等，也称为多感知。自然技能是指人的头部转动，眼睛、手势、或其他人体行为动作，由计算机来处理与参与者的动作相适应的数据，并对用户的输入作出实时响应，并分别反馈到用户的五官。传感设备是指三维交互设备。</div>
+	 <br/>
+   	 <div id="d4div2">
+    <h1>特征</h1>
+    VR已不仅仅被关注于计算机图象领域，它已涉及更广的领域，如电视会议、网络技术和分布计算技术，并向分布式虚拟现实发展。虚拟现实技术已成为新产品设计开发的重要手段。其中，协同工作虚拟现实是VR技术新的研究和应用的热点，它引入了新的技术问题，包括人的因素和网络、数据库技术等。如人的因素，已需要考虑多个参与者在一个共享的空间中如何相互交互，虚拟空间中的虚拟对象在多名参与者的共同作用下的行为等。在VR环境下的进行协同设计，团队成员可同步或异步地在虚拟环境中从事构造和操作虚拟对象的活动，并可对虚拟对象进行评估、讨论以及重新设计等活动。分布式虚拟环境可使地理位置上分布不同的设计人员面对相同的虚拟设计对象，通过在共享的虚拟环境中协同地使用声音和视频工具，可在设计的初期就能够消除设计缺陷，减少产品上市时间，提高产品质量。VR已成为构造虚拟样机，支持虚拟样机技术的重要工具。
+	</div>
+	
+	   	 <div id="d4div2">
+		 <br/><br/>
+	  <h1>发展过程</h1>
+   	 虚拟现实技术演变发展史大体上可以分为四个阶段：有声形动态的模拟是蕴涵虚拟现实思想的第一阶段（1963年以前）；虚拟现实萌芽为第二阶段（1963 -1972 ）；虚拟现实概念的产生和理论初步形成为第三阶段（1973 -1989 ）；虚拟现实理论进一步的完善和应用为第四阶段（1990 -2004 ）。它引入了新的技术问题，包括人的因素和网络、数据库技术等。如人的因素，已需要考虑多个参与者在一个共享的空间中如何相互交互，虚拟空间中的虚拟对象在多名参与者的共同作用下的行为等。在VR环境下的进行协同设计.</div>
+	</div>
+
+<div id="div-bottom">
+	<div>
+	<h2>头戴式 & 手握式COPI定义空间</h2>
+	全新COPI U NEO一体机发布
+	<br/><h2><a href="in2.html">了解更多....</a></h2>
+	</div>
+</div>
+
+<div id="div5">
+	
+	<div id="d5div2"><br/>友情链接<br/><br/><br/><a href="#">广州市外语艺术职业学院网站</a> | <a href="#">广州市外语艺术职业学院贴吧</a> | <a href="#">广州市外语艺术职业学院地图</a> | <a href="#">广州市外语艺术职业学院报名</a></div>
+	<div id="d5div1"><br/><img style="float:right;" src="images/logo2.png" width="80" height="80" /><br/>CopyRight@Kyle版权所有©<br/>联系学校：外语艺术职业学院<br/>联系电话：1234 5678</div>
+</div>
+
+
+</body>
+</html>
